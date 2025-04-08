@@ -1,0 +1,4 @@
+q,correlation,tracking_error,portfolio
+15,0.9571505292150737,0.002777418079231777,"['NVDA', 'JNJ', 'V', 'WMT', 'KO', 'INTC', 'MA', 'T', 'LLY', 'TSLA', 'BAC', 'AMZN', 'PFE', 'XOM', 'MCD']"
+15,0.9658638701046358,0.002416470867987278,"['PFE', 'JPM', 'ABT', 'GOOGL', 'HD', 'INTC', 'META', 'PEP', 'LLY', 'TSLA', 'CSCO', 'MA', 'MCD', 'CVX', 'VZ']"
+15,0.9654743146729865,0.0023170958126383914,"['ABT', 'UNH', 'MRK', 'MCD', 'TSLA', 'INTC', 'V', 'LLY', 'CVX', 'JPM', 'META', 'VZ', 'CSCO', 'HD', 'MSFT']"
