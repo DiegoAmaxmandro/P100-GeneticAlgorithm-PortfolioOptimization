@@ -76,7 +76,7 @@ A **Genetic Algorithm** is an optimization method inspired by evolution. It iter
 
 ---
 
-## 👨‍🎓 Author
+## Author
 
 - **Name**: Diego Lemos
 - **Module**: H9AIDM - AI Driven Decision Making  
@@ -84,6 +84,6 @@ A **Genetic Algorithm** is an optimization method inspired by evolution. It iter
 
 ---
 
-## 📜 License
+## License
 
 This project is for educational purposes and not intended for financial advice or real-world trading.
