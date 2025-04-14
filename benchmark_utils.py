@@ -2,16 +2,17 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Loading data
+# Loading data returns from data collection file
 def load_returns(path='returns.csv'):
     return pd.read_csv(path, index_col=0, parse_dates=True)
 
-# Equal-weighted benchmark, mean daily return
+# Function to compute the avage values of the banchmark (equal-weithted version)
 def compute_benchmark(returns_df):
     benchmark_returns = returns_df.mean(axis=1)
-    benchmark_cumulative = (1 + benchmark_returns).cumprod()
+    benchmark_cumulative = (1 + benchmark_returns).cumprod() #Calculates the cumulative return over time
     return benchmark_returns, benchmark_cumulative
 
+# Plotting cummulativo returns over time
 def plot_benchmark(cumulative_returns, title="Simulated S&P 100 Index"):
     plt.figure(figsize=(10, 5))
     cumulative_returns.plot()
